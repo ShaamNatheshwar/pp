@@ -1,4 +1,5 @@
 import 'package:devjams/views/screens/auth/login_screen.dart';
+import 'package:devjams/views/screens/auth/signup_screen.dart';
 import "package:flutter/material.dart";
 
 import 'constants.dart';
@@ -22,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: backgroundColor,
       ),
-      home: LoginScreen(),
+      home: SignUpScreen(),
     );
   }
 }
